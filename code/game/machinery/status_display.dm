@@ -105,7 +105,7 @@
 				if(length(message2) > CHARS_PER_LINE)
 					message2 = "Error!"
 			else
-				message1 = "ВРЕМЯ"
+				message1 = "TIME"
 				message2 = station_time_timestamp("hh:mm")
 			update_display(message1, message2, use_warn)
 			return 1
@@ -133,7 +133,7 @@
 			update_display(line1, line2)
 			return 1
 		if(STATUS_DISPLAY_TIME)
-			message1 = "ВРЕМЯ"
+			message1 = "TIME"
 			message2 = station_time_timestamp("hh:mm")
 			update_display(message1, message2)
 			return 1
@@ -142,7 +142,7 @@
 /obj/machinery/status_display/examine(mob/user)
 	. = ..()
 	if(mode != STATUS_DISPLAY_BLANK && mode != STATUS_DISPLAY_ALERT)
-		. += "На дисплее написано:<br>\t[sanitize(message1)]<br>\t[sanitize(message2)]"
+		. += "The display says:<br>\t[sanitize(message1)]<br>\t[sanitize(message2)]"
 
 /obj/machinery/status_display/proc/set_message(m1, m2)
 	if(m1)

@@ -376,7 +376,7 @@
 
 //Used in preferences' SetFlavorText and human's set_flavor verb
 //Previews a string of len or less length
-/proc/TextPreview(string, len=60
+/proc/TextPreview(string, len=60)
 	if(length_char(string) <= len)
 		if(!length_char(string))
 			return "\[...\]"

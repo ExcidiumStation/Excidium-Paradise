@@ -34,7 +34,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	  ":$" = "Response Team", "#$" = "Response Team", ".$" = "Response Team",
 	  ":-" = "Special Ops",	"#-" = "Special Ops",	".-" = "Special Ops",
 	  ":_" = "SyndTeam",	"#_" = "SyndTeam",		"._" = "SyndTeam",
-	  ":~" = "cords",		"#~" = "cords",			".~" = "cords"
+	  ":~" = "cords",		"#~" = "cords",			".~" = "cords",
 
 	  ":к" = "right ear",	"№к" = "right ear",		".к" = "right ear",
 	  ":д" = "left ear",	"№д" = "left ear",		".д" = "left ear",
