@@ -376,18 +376,18 @@
 
 //Used in preferences' SetFlavorText and human's set_flavor verb
 //Previews a string of len or less length
-/proc/TextPreview(string, len=40)
-	if(length(string) <= len)
-		if(!length(string))
+/proc/TextPreview(string, len=60
+	if(length_char(string) <= len)
+		if(!length_char(string))
 			return "\[...\]"
 		else
 			return html_encode(string) //NO DECODED HTML YOU CHUCKLEFUCKS
 	else
-		return "[copytext_preserve_html(string, 1, 37)]..."
+		return "[copytext_preserve_html(string, 1, len-3)]..."
 
 //alternative copytext() for encoded text, doesn't break html entities (&#34; and other)
 /proc/copytext_preserve_html(text, first, last)
-	return html_encode(copytext(html_decode(text), first, last))
+	return html_encode(copytext_char(html_decode(text), first, last))
 
 //Run sanitize(), but remove <, >, " first to prevent displaying them as &gt; &lt; &34; in some places, after html_encode().
 //Best used for sanitize object names, window titles.
