@@ -301,7 +301,7 @@
 	show_ui(user)
 
 /datum/pm_tracker/proc/show_ui(mob/user)
-	var/dat = ""
+	var/dat = {"<meta charset="UTF-8">"}
 
 	// If it was forced open, make them use a special close button that alerts admins to closure
 	if(forced)

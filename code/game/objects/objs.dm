@@ -237,6 +237,7 @@
 		return FALSE
 
 	var/dat = {"<html>
+	<meta charset="UTF-8">
 	<head>
 		<title>[name] Configuration</title>
 		<style type="text/css">
