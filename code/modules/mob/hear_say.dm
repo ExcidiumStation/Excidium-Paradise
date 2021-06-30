@@ -107,7 +107,7 @@
 
 		// Create map text message
 		if (client?.prefs.toggles2 & PREFTOGGLE_2_RUNECHAT) // can_hear is checked up there on L99
-			create_chat_message(speaker.runechat_msg_location, message_clean, italics)
+			create_chat_message(speaker.runechat_msg_location, message_clean, FALSE, italics)
 
 		if(speech_sound && (get_dist(speaker, src) <= world.view && src.z == speaker.z))
 			var/turf/source = speaker? get_turf(speaker) : get_turf(src)
@@ -122,7 +122,7 @@
 		hear_sleep(multilingual_to_message(message_pieces))
 		return
 
-	var/message = combine_message(message_pieces, verb, speaker, always_stars = hard_to_hear)
+	var/message = combine_message(message_pieces, null, speaker, always_stars = hard_to_hear)
 	if(message == "")
 		return
 
@@ -137,9 +137,13 @@
 		if(prob(20))
 			to_chat(src, "<span class='warning'>You feel your headset vibrate but can hear nothing from it!</span>")
 	else if(track)
-		to_chat(src, "[part_a][track][part_b][message]</span></span>")
+		to_chat(src, "[part_a][track][part_b][verb], \"[message]\"</span></span>")
+		if(client?.prefs.toggles2 & PREFTOGGLE_2_RUNECHAT)
+			create_chat_message(speaker, message, TRUE, FALSE)
 	else
-		to_chat(src, "[part_a][speaker_name][part_b][message]</span></span>")
+		to_chat(src, "[part_a][speaker_name][part_b][verb], \"[message]\"</span></span>")
+		if(client?.prefs.toggles2 & PREFTOGGLE_2_RUNECHAT)
+			create_chat_message(speaker, message, TRUE, FALSE)
 
 /mob/proc/handle_speaker_name(mob/speaker = null, vname, hard_to_hear)
 	var/speaker_name = "unknown"
@@ -194,7 +198,7 @@
 		name = speaker.voice_name
 
 	if((client?.prefs.toggles2 & PREFTOGGLE_2_RUNECHAT) && can_hear())
-		create_chat_message(H, message_unverbed)
+		create_chat_message(H, message_unverbed, TRUE, FALSE)
 
 	var/rendered = "<span class='game say'><span class='name'>[name]</span> [message]</span>"
 	to_chat(src, rendered)
