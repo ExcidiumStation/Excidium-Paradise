@@ -148,9 +148,9 @@ window "mainwindow"
 		anchor2 = none
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "Paradise Station 13"
+		title = "Excidium Station"
 		is-maximized = true
-		icon = 'icons\\paradise.png'
+		icon = 'icons\\excidium.png'
 		macro = "default"
 		menu = "menu"
 	elem "asset_cache_browser"
