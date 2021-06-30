@@ -477,3 +477,6 @@ ENABLE_AUTO_PROFILER
 
 ## Host for a custom 2FA server. Comment to disable. Do not use a trailing slash or https.
 #2FA_HOST http://127.0.0.1:8080
+
+# Log all timers on timer auto reset
+LOG_TIMERS_ON_BUCKET_RESET
