@@ -64,11 +64,14 @@ SUBSYSTEM_DEF(ticker)
 
 /datum/controller/subsystem/ticker/Initialize()
 	login_music = pick(\
-	'sound/music/thunderdome.ogg',\
-	'sound/music/space.ogg',\
-	'sound/music/title1.ogg',\
-	'sound/music/title2.ogg',\
-	'sound/music/title3.ogg',)
+	'sexcidium/sound/music/asteroid_theme.ogg',\
+	'sexcidium/sound/music/comet_haley.ogg',\
+	'sexcidium/sound/music/lysendraa.ogg',\
+	'sexcidium/sound/music/foregone_destruction.ogg',\
+	'sexcidium/sound/music/main.ogg',\
+	'sexcidium/sound/music/title1.ogg',\
+	'sexcidium/sound/music/title2.ogg',\
+	'sexcidium/sound/music/title3.ogg',)
 
 	return ..()
 
