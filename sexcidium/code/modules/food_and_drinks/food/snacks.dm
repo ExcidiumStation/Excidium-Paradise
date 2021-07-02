@@ -4,7 +4,6 @@
 	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "pureshka"
 
-
 /obj/item/reagent_containers/food/snacks/pureshka/New()
 		..()
 		reagents.add_reagent("nutriment", 5)		//Local meme.
@@ -14,7 +13,6 @@
 	desc = "Da ti potoropis!"
 	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "pureshka_cutlet"
-
 
 /obj/item/reagent_containers/food/snacks/pureshka_cutlet/New()
 		..()
@@ -26,7 +24,7 @@
 	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "catbread"
 
-	New()
+/obj/item/reagent_containers/food/snacks/catbread/New()
 		..()
 		reagents.add_reagent("nutriment", 15)
 		reagents.add_reagent("protein", 5)
@@ -38,7 +36,6 @@
 	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "olivier"
 
-
 /obj/item/reagent_containers/food/snacks/olivier/New()
 		..()
 		reagents.add_reagent("nutriment", 7)
@@ -48,7 +45,6 @@
 	desc = "Traditional salad served for New Year celebrations. Another one"
 	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "shubacarp"
-
 
 /obj/item/reagent_containers/food/snacks/shubacarp/New()
 		..()
@@ -60,11 +56,9 @@
 	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "sopa"
 
-
 /obj/item/reagent_containers/food/snacks/sopademacaco/New()
 		..()
 		reagents.add_reagent("nutriment", 15)
 		reagents.add_reagent("banana", 10)
 		reagents.add_reagent("msg", 5)
 		reagents.add_reagent("fartonium", 30)
-

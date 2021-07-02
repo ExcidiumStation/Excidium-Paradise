@@ -6,4 +6,3 @@
 		/obj/item/reagent_containers/food/snacks/grown/carrot
 	)
 	result = /obj/item/reagent_containers/food/snacks/sopademacaco
-

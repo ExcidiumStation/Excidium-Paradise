@@ -12,4 +12,3 @@
 		/obj/item/reagent_containers/food/snacks/cutlet,
 	)
 	result = /obj/item/reagent_containers/food/snacks/pureshka
-
