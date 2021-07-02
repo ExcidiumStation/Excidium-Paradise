@@ -1,7 +1,7 @@
 /obj/item/reagent_containers/food/snacks/pureshka
 	name = "Puree"
 	desc = "No cutlet?"
-	icon = 'hyntatmta/icons/obj/food/food.dmi'
+	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "pureshka"
 
 
@@ -12,7 +12,7 @@
 /obj/item/reagent_containers/food/snacks/pureshka_cutlet
 	name = "Cutlet puree"
 	desc = "Da ti potoropis!"
-	icon = 'hyntatmta/icons/obj/food/food.dmi'
+	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "pureshka_cutlet"
 
 
@@ -23,7 +23,7 @@
 /obj/item/reagent_containers/food/snacks/catbread
 	name = "Cat Bread"
 	desc = "Whoever made this, was not thinking about consequences."
-	icon = 'hyntatmta/icons/obj/food/food.dmi'
+	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "catbread"
 
 	New()
@@ -35,7 +35,7 @@
 /obj/item/reagent_containers/food/snacks/olivier
 	name = "Olivier Salad"
 	desc = "Traditional salad served for New Year celebrations"
-	icon = 'hyntatmta/icons/obj/food/food.dmi'
+	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "olivier"
 
 
@@ -46,7 +46,7 @@
 /obj/item/reagent_containers/food/snacks/shubacarp
 	name = "Dressed Space Carp" //P E R E V O D C H I K
 	desc = "Traditional salad served for New Year celebrations. Another one"
-	icon = 'hyntatmta/icons/obj/food/food.dmi'
+	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "shubacarp"
 
 
@@ -57,7 +57,7 @@
 /obj/item/reagent_containers/food/snacks/sopademacaco
 	name = "Sopa de macaco"
 	desc = "Uma delicia! You can see monkey head swimming in this mess"
-	icon = 'hyntatmta/icons/obj/food/food.dmi'
+	icon = 'sexcidium/icons/obj/food/food.dmi'
 	icon_state = "sopa"
 
 
