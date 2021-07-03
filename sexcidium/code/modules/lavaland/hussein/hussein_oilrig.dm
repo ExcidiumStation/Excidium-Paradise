@@ -1,4 +1,7 @@
 //Necropolis Tendrils_hussein, which spawn lavaland monsters and break into a chasm when killed
+/area/ruin/powered/hussein
+	icon_state = "dk_yellow"
+
 /obj/structure/spawner/hussein_oil
 	name = "Hussein Oil Tank"
 	desc = "Most prized possession of Saddam Hussein, the Great Dictator, legends says, that he hide Obama UAV inside...."

@@ -2,6 +2,6 @@
 	name = "Saddam Hussein Hiding Place"
 	id = "hussein"
 	description = "exdedede"
-	suffix = "zergnyxx_lavaland_saddam_hussein.dmm"
+	suffix = "lavaland_surface_saddam_hussein.dmm"
 	allow_duplicates = FALSE
 	cost = 15

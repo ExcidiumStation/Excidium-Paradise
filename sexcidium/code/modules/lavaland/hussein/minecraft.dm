@@ -1,6 +1,6 @@
 /obj/effect/minecraft
 	name = "Minecraft Machine"
-	desc = "Unique Arcade machine. It has Zerg&Co. trademark on its back."
+	desc = "Unique Arcade machine. that can literally kill you. It has Zerg&Co. trademark on its back."
 	density = TRUE
 	icon = 'sexcidium/icons/obj/machinery/arcade.dmi'
 	icon_state = "arcade"
