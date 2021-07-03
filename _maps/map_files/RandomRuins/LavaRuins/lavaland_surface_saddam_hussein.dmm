@@ -1,0 +1,133 @@
+"aa" = (/turf/template_noop,/area/template_noop)
+"ab" = (/turf/simulated/mineral/random/volcanic,/area/template_noop)
+"ac" = (/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"ad" = (/turf/simulated/mineral/random/volcanic,/area/ruin/powered/hussein)
+"ae" = (/obj/structure/beebox,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"af" = (/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"ag" = (/obj/structure/barricade/wooden,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"ah" = (/obj/structure/mineral_door/sandstone,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"ai" = (/turf/simulated/floor/chasm/straight_down/lava_land_surface,/area/ruin/powered/hussein)
+"aj" = (/obj/machinery/smartfridge/drying_rack,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"ak" = (/obj/structure/boulder,/turf/simulated/floor/chasm/straight_down/lava_land_surface,/area/ruin/powered/hussein)
+"al" = (/turf/simulated/floor/chasm/straight_down/lava_land_surface,/area/template_noop)
+"am" = (/obj/effect/decal/cleanable/fungus,/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"an" = (/obj/structure/rack,/obj/item/instrument/trombone,/obj/item/instrument/violin,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"ao" = (/obj/structure/boulder,/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"ap" = (/obj/structure/rack,/obj/item/instrument/saxophone,/obj/item/instrument/harmonica,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aq" = (/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,/area/template_noop)
+"ar" = (/obj/effect/decal/cleanable/glass,/obj/effect/mob_spawn/human/mime/corpse,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"as" = (/obj/structure/rack,/obj/item/instrument/accordion,/obj/item/instrument/trumpet,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"at" = (/obj/structure/coatrack,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"au" = (/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,/area/ruin/powered/hussein)
+"av" = (/obj/structure/boulder,/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,/area/ruin/powered/hussein)
+"aw" = (/obj/effect/mob_spawn/human/corpse/pirate,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"ax" = (/obj/effect/decal/remains/human,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"ay" = (/obj/structure/piano,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"az" = (/obj/structure/rack/skeletal_bar/left,/obj/item/instrument/guitar,/obj/item/instrument/xylophone,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aA" = (/obj/machinery/mineral/processing_unit_console,/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"aB" = (/obj/structure/rack/skeletal_bar/right,/obj/item/instrument/eguitar,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aC" = (/turf/simulated/wall/r_wall,/area/template_noop)
+"aD" = (/obj/effect/decal/cleanable/glass,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aE" = (/obj/effect/mob_spawn/human/clown/corpse,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aF" = (/obj/effect/decal/cleanable/shreds,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aG" = (/obj/structure/boulder,/obj/effect/decal/cleanable/glass,/turf/simulated/floor/chasm/straight_down/lava_land_surface,/area/template_noop)
+"aH" = (/obj/effect/turf_decal/sand,/obj/effect/decal/cleanable/glass,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aI" = (/obj/effect/decal/cleanable/glass,/obj/item/beach_ball,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aJ" = (/obj/effect/turf_decal/sand,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aK" = (/obj/structure/boulder,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aL" = (/obj/effect/turf_decal/sand,/obj/effect/decal/cleanable/blood/drip,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aM" = (/turf/simulated/wall/indestructible/necropolis,/area/ruin/powered/hussein)
+"aN" = (/obj/effect/decal/cleanable/blood/drip,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aO" = (/obj/machinery/conveyor/south,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aP" = (/obj/effect/decal/cleanable/fungus,/turf/simulated/wall/indestructible/necropolis,/area/ruin/powered/hussein)
+"aQ" = (/obj/item/stack/ore/uranium,/obj/item/stack/ore/uranium,/obj/item/stack/ore/uranium,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aR" = (/obj/machinery/mineral/unloading_machine{dir = 1; icon_state = "unloader-corner"; input_dir = 1; output_dir = 2},/obj/machinery/conveyor/south,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aS" = (/obj/machinery/autolathe,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aT" = (/obj/machinery/mineral/processing_unit{dir = 1; output_dir = 2},/obj/machinery/conveyor/south,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aU" = (/obj/machinery/conveyor/west,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aV" = (/obj/machinery/conveyor/southwest,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"aW" = (/obj/structure/chair/comfy/beige,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aX" = (/obj/machinery/prize_counter,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aY" = (/obj/machinery/gameboard,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"aZ" = (/obj/structure/chair/comfy/beige{dir = 8},/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"ba" = (/obj/effect/decal/cleanable/blood/gibs/robot/limb,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bb" = (/obj/machinery/disco{anchored = 1},/turf/simulated/floor/light,/area/ruin/powered/hussein)
+"bc" = (/obj/effect/decal/cleanable/insectguts,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bd" = (/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"be" = (/obj/effect/decal/cleanable/blood/drip,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bf" = (/obj/structure/weightmachine/stacklifter,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bg" = (/obj/structure/chair/stool,/obj/effect/decal/cleanable/glass,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bh" = (/obj/structure/chair/stool,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bi" = (/obj/machinery/computer/arcade/orion_trail,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bj" = (/obj/machinery/arcade/claw,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bk" = (/obj/machinery/slot_machine,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bl" = (/obj/structure/weightmachine/weightlifter,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bm" = (/obj/structure/spawner/hussein_oil,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bn" = (/obj/machinery/atmospherics/pipe/cap/visible/supply,/obj/item/fan,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bo" = (/obj/machinery/atmospherics/unary/vent_pump,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bp" = (/turf/simulated/floor/light,/area/ruin/powered/hussein)
+"bq" = (/obj/structure/bookcase/random/religion,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"br" = (/obj/item/toy/russian_revolver/trick_revolver,/obj/structure/window/reinforced{dir = 1; layer = 2.9},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/grass,/area/ruin/powered/hussein)
+"bs" = (/obj/effect/decal/cleanable/molten_object,/obj/structure/table/wood,/obj/item/candle,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bt" = (/obj/effect/minecraft,/turf/simulated/floor/grass,/area/ruin/powered/hussein)
+"bu" = (/obj/effect/decal/cleanable/glass,/mob/living/simple_animal/goossein,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bv" = (/obj/effect/decal/cleanable/vomit,/turf/simulated/floor/light,/area/ruin/powered/hussein)
+"bw" = (/obj/structure/boulder,/turf/simulated/wall/indestructible/necropolis,/area/ruin/powered/hussein)
+"bx" = (/obj/structure/bed/psych,/obj/item/bedsheet/syndie,/obj/item/storage/bible,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"by" = (/obj/structure/table/wood,/obj/machinery/chem_dispenser/soda,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bz" = (/obj/effect/decal/cleanable/blood/drip,/obj/effect/mob_spawn/human/corpse/russian,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bA" = (/obj/structure/mirror{dir = 4; pixel_x = 32},/obj/effect/decal/cleanable/blood,/obj/effect/decal/cleanable/blood/drip,/obj/effect/decal/cleanable/blood/innards,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bB" = (/obj/structure/falsewall/reinforced,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bC" = (/obj/effect/decal/remains/human,/obj/effect/decal/cleanable/glass,/obj/effect/decal/cleanable/vomit/green,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bD" = (/obj/effect/decal/cleanable/vomit,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bE" = (/obj/structure/table/wood,/obj/machinery/chem_dispenser/beer,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bF" = (/obj/structure/table/wood,/obj/item/reagent_containers/glass/rag,/obj/item/reagent_containers/food/drinks/shaker,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bG" = (/obj/machinery/vending/dinnerware,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bH" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "The Air Fryer"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bI" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Light Music Room"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bJ" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Blacksmith Forge Room"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bK" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Cum Zone. Go ahead."},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bL" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Gaming Room"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bM" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Minecraft Room"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bN" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Cool Party Ahead"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bO" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Gym"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bP" = (/obj/structure/sign/goldenplaque{desc = "A sign."; name = "Bedroom"},/turf/simulated/wall/r_wall,/area/ruin/powered/hussein)
+"bQ" = (/obj/machinery/conveyor/south,/obj/item/stack/ore/uranium,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bR" = (/obj/machinery/mineral/mint,/obj/item/clothing/gloves/ring/uranium,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bS" = (/obj/item/clothing/gloves/ring/uranium,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bT" = (/obj/item/storage/toolbox/mechanical/old,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+"bU" = (/obj/item/beach_ball/holoball,/turf/simulated/floor/wood,/area/ruin/powered/hussein)
+"bW" = (/obj/structure/chair/stool,/turf/simulated/floor/plating/asteroid,/area/ruin/powered/hussein)
+
+(1,1,1) = {"
+aaaaababacacacadadadadadadadadadacacacacacababaaaaaaaaaaaaaa
+aaaaabacaeafagagagafafafafafagafagafahafafacababaaaaaaaaaaaa
+aaaaabacajafamadadadadadadadadadacafacacafanacababaaaaaaaaaa
+aaaaabacajafambHacaiaiaiaiacaiaiakakacaparakasacabaaaaaaaaaa
+aaabababacafahafafafafawaiacaiaxaoakacayararafacabaaaaaaaaaa
+aqaqabababacacaiaiaiaiafaiaiaiafahakacacazaBafakabaaaaaaaaaa
+aqaqaqabacacataiaiaiacafaiaiaiafbIacacabacbJahacababaaaaaaaa
+aqaqauavavahafaDaiaiaEafacafafaFacabababalaGafacababaaaaaaaa
+aqaqababacacacaHaJaLafafafafacaFaialabababaGaNaiacaCababaaaa
+aaabababababaiafacacacafamaiaiaiaiabalalacacahamaQbQacabaaaa
+aaaaaaaaaaabaiafaiaiaiafaiaiaiacacabalacbRakafakaQaRacabaaaa
+aaaaaaaaaaabacafaiaiaiafafaiaiaiamabalacbSafafafafaOacabaaaa
+aaaaaaaaaaabacafaxaiaiacafafafafamabalalacbTaSaFaAaTacabaaaa
+aaaaaaaaaaababbKahacaiaiaiaibLafamababalalacacaUaUaVacabaaaa
+aaaaaaaaaaaaabalalalababababacahacabababalalalacacacababaaaa
+aaaaaaaaaaaaababalababababacafafaWacababababalalalabababaaaa
+aaaaaaaaaaaaaaabababacacacaXafafaYaZacaiacadadacacaiaiababaa
+aaaaaaaaaaaaaaaaabacafbaahafafbuafafahbcagagagafbUbebfacabaa
+aaaaaaaaaaaaabababacahacbMafbgaDbhaKbNaiacadacakbdbdbdaiabaa
+aaaaaaaaaaababaMacafafacabacbibjbkacaiaiacadaiaIblbdblaiabaa
+aaaaaaaaaaabaMaiaiaiafacababacacacabaiaxacadaiafaDbdacacabaa
+aaaaaaaaaaabaPbrbtafafacababababababamaiacadaiamahacacababaa
+aaaaaaaaaaabaMaiaiaiafacababbwbwababamaiacadadamafbOabababaa
+aaaaaaaaaaababaMbaaDaDacabbwafbmbwabamahacacaiaiafafacababaa
+aaaaaaaaaaaaabamahbPamamacaKbnbobwabacafaiaiaibpafafafacabab
+aaaaaaaaaaaaabamafbqbxbsbBaKbwbwababacaNafaibbbvafbFbWbyacab
+aaaaaaaaaaaaabacafaNbzbAacacababababacaNaNbpbpbpafbGbCbEacab
+aaaaaaaaaaaaababacacacacabababababababacafbDafafafacacacabab
+aaaaaaaaaaaaaaababababababababababababacaiaiacacacaiaiababaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababaaaa
+"}
