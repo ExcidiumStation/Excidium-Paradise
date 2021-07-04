@@ -1,6 +1,6 @@
 /obj/effect/minecraft
 	name = "Minecraft Machine"
-	desc = "Unique Arcade machine. that can literally kill you. It has Zerg&Co. trademark on its back."
+	desc = "Unique Arcade machine, that can LITERALLY KILL YOU. It has Zerg&Co. trademark on its back."
 	density = TRUE
 	icon = 'sexcidium/icons/obj/machinery/arcade.dmi'
 	icon_state = "arcade"
@@ -14,14 +14,15 @@
 
 /obj/effect/minecraft/Bumped(mob/M as mob|obj)
 
-	if(triggered_minecraft) return
+	if(triggered_minecraft)
+		return
 
 	if(istype(M, /mob/living/carbon/human))
 		visible_message("<span class='danger'>[M] triggers [src]!</span>")
 		triggered_minecraft = TRUE
-		triggerrad1_minecraft(M)
+		daticheblyaaa(M)
 
-/obj/effect/minecraft/proc/triggerrad1_minecraft(mob)
+/obj/effect/minecraft/proc/daticheblyaaa(mob)
 	for(var/mob/O in viewers(world.view, src.loc))
 		do_sparks(3, 1, src)
 		explosion(mob, 1, 0, 0, 0)

@@ -11,7 +11,4 @@
 	desc = "مرحبا بكم في منطقة نائب الرئيس."
 
 /obj/structure/closet/crate/necropolis/hussein/populate_contents()
-	var/loot = rand(1, 1)
-	switch(loot)
-		if(1)
-			new /obj/item/gun/projectile/automatic/gyropistol/UAV(src)
+	new /obj/item/gun/projectile/automatic/gyropistol/UAV(src)
