@@ -39,7 +39,6 @@ GLOBAL_LIST_INIT(tendrils_hussein, list())
 	new /obj/structure/closet/crate/necropolis/hussein(loc)
 	return ..()
 
-
 /obj/structure/spawner/hussein_oil/Destroy()
 	var/last_tendril_hussein = TRUE
 	if(GLOB.tendrils_hussein.len>1)
