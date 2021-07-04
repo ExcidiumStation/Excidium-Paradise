@@ -1,0 +1,7 @@
+GLOBAL_LIST_INIT(megakaras_first_names, file2list("sexcidium/strings/names/megakaras1.txt"))
+GLOBAL_LIST_INIT(megakaras_last_names, file2list("sexcidium/strings/names/megakaras2.txt"))
+GLOBAL_LIST_INIT(karas_first_names, file2list("sexcidium/strings/names/karas1.txt"))
+GLOBAL_LIST_INIT(karas_mid_names, file2list("sexcidium/strings/names/karas2.txt"))
+GLOBAL_LIST_INIT(karas_last_names, file2list("sexcidium/strings/names/karas3.txt"))
+GLOBAL_LIST_INIT(megakaras_desc, file2list("sexcidium/strings/names/megadesc.txt"))
+GLOBAL_LIST_INIT(karas_desc, file2list("sexcidium/strings/names/desc.txt"))
