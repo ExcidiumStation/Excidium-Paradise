@@ -25,6 +25,7 @@ a hat
 the Cyberiad
 the Cerebron
 the Kerberos
+the Excidium
 a ruined station
 a planet
 plasma

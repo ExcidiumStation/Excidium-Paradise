@@ -2511,6 +2511,7 @@
 #include "sexcidium\code\modules\lavaland\hussein\oilrig.dm"
 #include "sexcidium\code\modules\lavaland\hussein\stash.dm"
 #include "sexcidium\code\modules\lavaland\hussein\UAV.dm"
+#include "sexcidium\code\modules\mapping\excidium.dm"
 #include "sexcidium\code\modules\mob\living\simple_animal\goossein.dm"
 #include "sexcidium\code\modules\mob\living\simple_animal\hostile\hussein.dm"
 // END_INCLUDE
