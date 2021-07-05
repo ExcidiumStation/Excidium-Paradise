@@ -2502,7 +2502,11 @@
 #include "goon\code\datums\browserOutput.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
+#include "sexcidium\code\_globalvars\lists\names.dm"
 #include "sexcidium\code\datums\ruins\lavaland.dm"
+#include "sexcidium\code\modules\events\event_container.dm"
+#include "sexcidium\code\modules\events\hohol_infestation.dm"
+#include "sexcidium\code\modules\events\hohol_migration.dm"
 #include "sexcidium\code\modules\food_and_drinks\food\snacks.dm"
 #include "sexcidium\code\modules\food_and_drinks\kitchen_machinery\processor.dm"
 #include "sexcidium\code\modules\food_and_drinks\recipes\recipes_microwave.dm"
@@ -2513,5 +2517,6 @@
 #include "sexcidium\code\modules\lavaland\hussein\UAV.dm"
 #include "sexcidium\code\modules\mapping\excidium.dm"
 #include "sexcidium\code\modules\mob\living\simple_animal\goossein.dm"
+#include "sexcidium\code\modules\mob\living\simple_animal\hostile\hohol.dm"
 #include "sexcidium\code\modules\mob\living\simple_animal\hostile\hussein.dm"
 // END_INCLUDE
