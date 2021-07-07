@@ -104,7 +104,7 @@
 //FUCKING DANGEROUS SHIT
 	/obj/item/card/emag_broken = 3,
 	/obj/item/pneumatic_cannon/ghetto = 3,
-	/obj/item/clothing/under/contortionist  = 3,
+	/obj/item/clothing/under/contortionist = 3,
 	/obj/item/weldingtool/hugetank = 3,
 	/obj/item/toy/cards/deck/syndicate = 3,
 	/obj/item/melee/baton/cattleprod = 3,
