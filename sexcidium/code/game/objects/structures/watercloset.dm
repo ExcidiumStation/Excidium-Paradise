@@ -3,7 +3,7 @@
 /obj/structure/toilet/parasha
 	name = "BIDLOparasha X-1337"
 	desc = "Cоздано при помощи древней технологии, чье истинное назначение так и осталось неопознанным. Чистите вилкой и получите свою награду."
-	icon = 'hyntatmta/icons/obj/parasha.dmi'
+	icon = 'sexcidium/icons/obj/parasha.dmi'
 	var/nishtyak_cooldown
 
 /obj/structure/toilet/parasha/attackby(obj/item/I, mob/living/user, params)
@@ -86,7 +86,7 @@
 	/obj/item/stack/rods{amount = 23} = 15,
 	/obj/item/melee/classic_baton = 14,
 	/obj/item/clothing/head/helmet/space = 12,
-	/obj/item/tank/emergency_oxygen = 11,
+	/obj/item/tank/internals/emergency_oxygen = 11,
 	/obj/item/reagent_containers/food/snacks/monkeycube = 17,
 	/obj/item/storage/backpack/satchel_flat = 16,
 //Rare things
@@ -104,7 +104,7 @@
 //FUCKING DANGEROUS SHIT
 	/obj/item/card/emag_broken = 3,
 	/obj/item/pneumatic_cannon/ghetto = 3,
-	/obj/item/clothing/under/contortionist/worn = 3,
+	/obj/item/clothing/under/contortionist  = 3,
 	/obj/item/weldingtool/hugetank = 3,
 	/obj/item/toy/cards/deck/syndicate = 3,
 	/obj/item/melee/baton/cattleprod = 3,
