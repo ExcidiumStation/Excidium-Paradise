@@ -25,5 +25,6 @@
 /obj/effect/minecraft/proc/daticheblyaaa(mob)
 	for(var/mob/O in viewers(world.view, src.loc))
 		do_sparks(3, 1, src)
-		explosion(mob, 1, 0, 0, 0)
+		playsound(src, 'sexcidium/sound/effect/mamaprishla.ogg', 80, 0)
+		explosion(mob, 1, 0, 0, 0, silent = 1)
 		qdel(src)
