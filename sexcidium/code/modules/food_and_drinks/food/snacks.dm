@@ -65,8 +65,8 @@
 
 /obj/item/reagent_containers/food/snacks/meat/ham/salo
 	name = "Сало"
-	desc = "Сало, сало, сало, україньске сало"
+	desc = "Сало, сало, сало, україньске сало. Його прекрасний смак може вбити вас, якщо ви з'їсте занадто багато"
 	icon = 'sexcidium/icons/obj/food/salo.dmi'
 	icon_state = "salo"
 	bitesize = 20
-	list_reagents = list("porktonium" = 10, "nutriment" = 20, "lsd" = 10, "capulletium" = 10, "initropidril" = 1)
+	list_reagents = list("porktonium" = 10, "nutriment" = 20, "lsd" = 10, "capulletium" = 10, "initropidril" = 0.1)

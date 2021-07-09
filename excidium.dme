@@ -2504,7 +2504,6 @@
 #include "interface\skin.dmf"
 #include "sexcidium\code\_globalvars\lists\names.dm"
 #include "sexcidium\code\datums\ruins\lavaland.dm"
-#include "sexcidium\code\modules\events\event_container.dm"
 #include "sexcidium\code\modules\events\hohol_infestation.dm"
 #include "sexcidium\code\modules\events\hohol_migration.dm"
 #include "sexcidium\code\modules\food_and_drinks\food\snacks.dm"

@@ -1,6 +1,6 @@
 /mob/living/simple_animal/hostile/carp/karas
-	name = "Карась"
-	icon = 'sexcidium/icons/mob/KARAS/carp.dmi'
+	name = "РљР°СЂР°СЃСЊ"
+	icon = 'sexcidium/icons/mob/karas/carp.dmi'
 	icon_state = "carp"
 	icon_living = "carp"
 	icon_dead = "carp_dead"
@@ -11,7 +11,7 @@
 	attack_sound = 'sexcidium/sound/effect/oink.ogg'
 	speak_emote = list("hrucks")
 
-	speak = list("Ще не вмерла", "Слава Україне", "Героям Слава", "Клятi Москалi", "Моя хата скраю, нічого не знаю")
+	speak = list("Р©Рµ РЅРµ РІРјРµСЂР»Р°", "РЎР»Р°РІР° РЈРєСЂР°С—РЅРµ", "Р“РµСЂРѕСЏРј РЎР»Р°РІР°", "РљР»СЏС‚i РњРѕСЃРєР°Р»i", "РњРѕСЏ С…Р°С‚Р° СЃРєСЂР°СЋ, РЅС–С‡РѕРіРѕ РЅРµ Р·РЅР°СЋ")
 	speak_emote = list("hrucks")
 	emote_see = list("hrucks")
 	speak_chance = 5
@@ -21,11 +21,11 @@
 /mob/living/simple_animal/hostile/carp/karas/Initialize()
 	. = ..()
 	name = "[pick(GLOB.karas_first_names)] [pick(GLOB.karas_mid_names)] [pick(GLOB.karas_last_names)]"
-	desc = "Солдат Українской киберсотни со званием: [pick(GLOB.karas_desc)]!"
+	desc = "РЎРѕР»РґР°С‚ РЈРєСЂР°С—РЅСЃРєРѕР№ РєРёР±РµСЂСЃРѕС‚РЅРё СЃРѕ Р·РІР°РЅРёРµРј: [pick(GLOB.karas_desc)]!"
 
 /mob/living/simple_animal/hostile/carp/karas/megakaras
-	name = "Мегакарась"
-	icon = 'sexcidium/icons/mob/KARAS/MEGA.dmi'
+	name = "РњРµРіР°РєР°СЂР°СЃСЊ"
+	icon = 'sexcidium/icons/mob/karas/mega.dmi'
 	icon_state = "megacarp"
 	icon_living = "megacarp"
 	icon_dead = "megacarp_dead"

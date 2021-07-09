@@ -31,46 +31,46 @@
 	switch(location)
 		if(LOC_KITCHEN)
 			spawn_area_type = /area/crew_quarters/kitchen
-			locstring = "на кухне"
+			locstring = "РЅР° РєСѓС…РЅРµ"
 		if(LOC_ATMOS)
 			spawn_area_type = /area/atmos
-			locstring = "в атмосферном отсеке"
+			locstring = "РІ Р°С‚РјРѕСЃС„РµСЂРЅРѕРј РѕС‚СЃРµРєРµ"
 		if(LOC_INCIN)
 			spawn_area_type = /area/maintenance/incinerator
-			locstring = "в мусоросжигателе"
+			locstring = "РІ РјСѓСЃРѕСЂРѕСЃР¶РёРіР°С‚РµР»Рµ"
 		if(LOC_CHAPEL)
 			spawn_area_type = /area/chapel/main
-			locstring = "в церкви"
+			locstring = "РІ С†РµСЂРєРІРё"
 		if(LOC_LIBRARY)
 			spawn_area_type = /area/library
-			locstring = "в библиотеке"
+			locstring = "РІ Р±РёР±Р»РёРѕС‚РµРєРµ"
 		if(LOC_HYDRO)
 			spawn_area_type = /area/hydroponics
-			locstring = "в ботанике"
+			locstring = "РІ Р±РѕС‚Р°РЅРёРєРµ"
 		if(LOC_VAULT)
 			spawn_area_type = /area/security/nuke_storage
-			locstring = "в хранилище ядерного заряда"
+			locstring = "РІ С…СЂР°РЅРёР»РёС‰Рµ СЏРґРµСЂРЅРѕРіРѕ Р·Р°СЂСЏРґР°"
 		if(LOC_CONSTR)
 			spawn_area_type = /area/construction
-			locstring = "в строительной зоне инженерного отсека"
+			locstring = "РІ СЃС‚СЂРѕРёС‚РµР»СЊРЅРѕР№ Р·РѕРЅРµ РёРЅР¶РµРЅРµСЂРЅРѕРіРѕ РѕС‚СЃРµРєР°"
 		if(LOC_TECH)
 			spawn_area_type = /area/storage/tech
-			locstring = "на складе печатных плат"
+			locstring = "РЅР° СЃРєР»Р°РґРµ РїРµС‡Р°С‚РЅС‹С… РїР»Р°С‚"
 		if(LOC_ARMORY)
 			spawn_area_type = /area/security/securearmoury
-			locstring = "в оружейной"
+			locstring = "РІ РѕСЂСѓР¶РµР№РЅРѕР№"
 		if(LOC_CARGO)
 			spawn_area_type = /area/quartermaster/storage
-			locstring = "на складе карго"
+			locstring = "РЅР° СЃРєР»Р°РґРµ РєР°СЂРіРѕ"
 		if(LOC_COURT)
 			spawn_area_type = /area/crew_quarters/courtroom
-			locstring = "в зале суда"
+			locstring = "РІ Р·Р°Р»Рµ СЃСѓРґР°"
 		if(LOC_TOXTEST)
 			spawn_area_type = /area/toxins/test_area
-			locstring = "в зоне для теста бомб"
+			locstring = "РІ Р·РѕРЅРµ РґР»СЏ С‚РµСЃС‚Р° Р±РѕРјР±"
 		if(LOC_ARCADE)
 			spawn_area_type = /area/crew_quarters/arcade
-			locstring = "в игровой зоне дормиториев"
+			locstring = "РІ РёРіСЂРѕРІРѕР№ Р·РѕРЅРµ РґРѕСЂРјРёС‚РѕСЂРёРµРІ"
 
 	for(var/areapath in typesof(spawn_area_type))
 		var/area/A = locate(areapath)
@@ -85,11 +85,11 @@
 		if(VERM_HOHOL)
 			spawn_types = list(/mob/living/simple_animal/hostile/carp/karas)
 			max_number = 10
-			vermstring = "отряд швайнкарасей"
+			vermstring = "РѕС‚СЂСЏРґ С€РІР°Р№РЅРєР°СЂР°СЃРµР№"
 		if(VERM_BANDERA)
 			spawn_types = list(/mob/living/simple_animal/hostile/carp/karas/megakaras)
 			max_number = 2
-			vermstring = "группа ветеранов АТО"
+			vermstring = "РіСЂСѓРїРїР° РІРµС‚РµСЂР°РЅРѕРІ РђРўРћ"
 	var/amount_to_spawn = rand(2, max_number)
 	while(length(turfs) && amount_to_spawn > 0)
 		var/turf/simulated/floor/T = pick_n_take(turfs)
@@ -103,7 +103,7 @@
 			new spawn_type(T)
 
 /datum/event/infestation_hohol/announce()
-	GLOB.event_announcement.Announce("ВНИМАНИЕ! К станции приближается [vermstring]! Они высадятся [locstring]. Дикие швайнокараси очень опасны, приближайтесь на свой страх и риск.", "Угроза Вторжения")
+	GLOB.event_announcement.Announce("Р’РќРРњРђРќРР•! Рљ СЃС‚Р°РЅС†РёРё РїСЂРёР±Р»РёР¶Р°РµС‚СЃСЏ [vermstring]! РћРЅРё РІС‹СЃР°РґСЏС‚СЃСЏ [locstring]. Р”РёРєРёРµ С€РІР°Р№РЅРѕРєР°СЂР°СЃРё РѕС‡РµРЅСЊ РѕРїР°СЃРЅС‹, РїСЂРёР±Р»РёР¶Р°Р№С‚РµСЃСЊ РЅР° СЃРІРѕР№ СЃС‚СЂР°С… Рё СЂРёСЃРє.", "РЈРіСЂРѕР·Р° Р’С‚РѕСЂР¶РµРЅРёСЏ")
 
 #undef LOC_KITCHEN
 #undef LOC_ATMOS
