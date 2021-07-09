@@ -1,6 +1,6 @@
 /mob/living/simple_animal/hostile/carp/karas
 	name = "Карась"
-	icon = 'sexcidium/icons/mob/karas/carp.dmi'
+	icon = 'sexcidium/icons/mob/hohol/carp.dmi'
 	icon_state = "carp"
 	icon_living = "carp"
 	icon_dead = "carp_dead"
@@ -25,7 +25,7 @@
 
 /mob/living/simple_animal/hostile/carp/karas/megakaras
 	name = "Мегакарась"
-	icon = 'sexcidium/icons/mob/karas/mega.dmi'
+	icon = 'sexcidium/icons/mob/hohol/mega.dmi'
 	icon_state = "megacarp"
 	icon_living = "megacarp"
 	icon_dead = "megacarp_dead"
