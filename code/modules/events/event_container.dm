@@ -183,8 +183,8 @@ GLOBAL_LIST_EMPTY(event_last_fired)
 		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Morph Spawn", 				/datum/event/spawn_morph, 				40,		list(ASSIGNMENT_SECURITY = 10), is_one_shot = TRUE),
 		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Disease Outbreak",			/datum/event/disease_outbreak, 			0,		list(ASSIGNMENT_MEDICAL = 150), TRUE),
 		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Headcrabs",				/datum/event/headcrabs, 				0,		list(ASSIGNMENT_SECURITY = 20)),
-		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Door Runtime",				/datum/event/door_runtime,				50,		list(ASSIGNMENT_ENGINEER = 25, ASSIGNMENT_AI = 150), TRUE)
-		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Hohol School",				/datum/event/hohol_migration,			500, 	list(ASSIGNMENT_ENGINEER = 10, ASSIGNMENT_SECURITY = 20), TRUE),
+		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Door Runtime",				/datum/event/door_runtime,				50,		list(ASSIGNMENT_ENGINEER = 25, ASSIGNMENT_AI = 150), TRUE),
+		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Hohol School",				/datum/event/hohol_migration,			500, 	list(ASSIGNMENT_ENGINEER = 10, ASSIGNMENT_SECURITY = 20), TRUE)
 	)
 
 /datum/event_container/major
@@ -200,9 +200,9 @@ GLOBAL_LIST_EMPTY(event_last_fired)
 		//new /datum/event_meta/alien(EVENT_LEVEL_MAJOR, "Alien Infestation",	/datum/event/alien_infestation, 		0,		list(ASSIGNMENT_SECURITY = 15), TRUE),
 		new /datum/event_meta(EVENT_LEVEL_MAJOR, "Traders",			/datum/event/traders,			85, is_one_shot = TRUE),										// 8.4% on high pop, 9.4% on low pop
 		new /datum/event_meta(EVENT_LEVEL_MAJOR, "Terror Spiders",	/datum/event/spider_terror, 	20,						list(ASSIGNMENT_SECURITY = 4), TRUE),	// 7.1% on high pop, 5.3% on low pop
-		new /datum/event_meta(EVENT_LEVEL_MAJOR, "Slaughter Demon",	/datum/event/spawn_slaughter,	10,  is_one_shot = TRUE)	// 3% on high pop, 2.1% on low pop
+		new /datum/event_meta(EVENT_LEVEL_MAJOR, "Slaughter Demon",	/datum/event/spawn_slaughter,	10,  is_one_shot = TRUE),	// 3% on high pop, 2.1% on low pop
 		//new /datum/event_meta(EVENT_LEVEL_MAJOR, "Floor Cluwne",	/datum/event/spawn_floor_cluwne,	15, is_one_shot = TRUE)
-		new /datum/event_meta(EVENT_LEVEL_MAJOR, "Hohol Migration",	/datum/event/hohol_migration,	50,						list(ASSIGNMENT_SECURITY =  3), TRUE),
+		new /datum/event_meta(EVENT_LEVEL_MAJOR, "Hohol Migration",	/datum/event/hohol_migration,	50,						list(ASSIGNMENT_SECURITY =  3), TRUE)
 	)
 
 
