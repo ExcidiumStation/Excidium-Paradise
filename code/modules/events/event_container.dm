@@ -185,7 +185,6 @@ GLOBAL_LIST_EMPTY(event_last_fired)
 		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Headcrabs",				/datum/event/headcrabs, 				0,		list(ASSIGNMENT_SECURITY = 20)),
 		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Door Runtime",				/datum/event/door_runtime,				50,		list(ASSIGNMENT_ENGINEER = 25, ASSIGNMENT_AI = 150), TRUE)
 		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Hohol School",				/datum/event/hohol_migration,			500, 	list(ASSIGNMENT_ENGINEER = 10, ASSIGNMENT_SECURITY = 20), TRUE),
-		new /datum/event_meta(EVENT_LEVEL_MODERATE, "Hohol Infestation",		/datum/event/infestation_hohol,			125,	list(ASSIGNMENT_SECURITY = 30), TRUE),
 	)
 
 /datum/event_container/major
